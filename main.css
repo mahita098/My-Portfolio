@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero-img {
+    background-image: url("Images/background.jpg");
+    width: 100%;
+    height: 2000px;;
+    object-fit: cover;
+}
+
+svg.nightmode {
+    width: 20px;
+    height: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul li {
+    list-style-type: none;
+    
+}
+
+ul li a{
+    display: block;
+    padding: .75em 2em;
+}
