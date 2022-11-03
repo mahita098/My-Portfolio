@@ -55,6 +55,7 @@ header {
     border-bottom-left-radius: 200px;
     border-bottom-right-radius: 200px;
     z-index: 1;
+    overflow: hidden;
 
 }
 
