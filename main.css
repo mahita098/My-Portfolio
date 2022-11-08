@@ -14,7 +14,7 @@ body {
     background-image: url("Images/background.jpg");
     width: 100%;
     height: 2000px;;
-    object-fit: cover;
+    /* object-fit: cover; */
 
 }
 
@@ -30,40 +30,46 @@ svg.nightmode {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1.5em 1.2em;
+    padding: 2.5em 1.2em;
     text-decoration: none;
     
    
 }
 
 .namelogo {
-    margin-left: 4rem;
+    margin-left: 7rem;
     text-decoration: none;
-    font-family: 'Kristi', cursive;
-    font-size: 60px;
+    font-family: 'Aladin', cursive;
+    font-size: 55px;
     color: black;
     
     
 }
 
 .box {
+    position: relative;
     box-shadow: 10px 10px 16px rgb(133, 125, 125);
     width: 60%;
-    height: 70%;
-    margin-left: 4em;
+    height: 65%;
+    margin-left: 6.5em;
     margin-top: 4rem;
     border-bottom-left-radius: 200px;
     border-bottom-right-radius: 200px;
     z-index: 1;
     overflow: hidden;
+    
+   
+    
 
 }
 
 .box-img {
-  position: relative;
-  right: 70px;
-  top: 15px;
+  position: absolute;
+  left: -5rem;
+  top: rem;
   z-index: 2;
+  
+  
 }
 
 
@@ -73,7 +79,7 @@ header {
 }
 
 .navbar {
-   
+   margin-right: 7em;
 
 }
 
@@ -88,8 +94,8 @@ ul li {
     padding: .75em 2em;
     text-decoration: none;
     color: black;
-    font-family: 'Kristi', cursive;
-    font-size: 32px;
+    font-family: 'Aladin', cursive;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -98,8 +104,14 @@ ul li {
     
 }
 
+.left-part {
+    width: 50%;
+    margin-left: 2em;
+}
+
 .right-part {
-    margin: 2em 4em 4em 6em;
+    width: 70%;
+    margin: 2em 2em 4em 7em;
 }
 
 .desc1 {
@@ -118,11 +130,11 @@ ul li {
 }
 
 .sociallogo {
-    width: 400px;
+    /* width: 400px; */
     display: flex;
     gap: 2em;
     padding:3em 2em 2em 2em;
-    margin-left:90px;
+    margin-left:95px;
       
 }
 
