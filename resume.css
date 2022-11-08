@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EDEAEA;
+    
+}
+
+.container {
+    margin: 0 300px;
+
+}
+
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation_link {
+    display: flex;
+    align-items: center;
+    margin-right: 64px;
+}
+
+.navigation:before {
+    background-color: #3F3838; ;
+    content: "";
+    display: block;
+    height: 2px;
+    order: 2;
+    width: 100%;
+}
+
+.navigation_list {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    flex-shrink: 0;
+    order: 3;
+    margin-left: 55px;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navigation_list_items {
+    padding-left: 11px;
+    padding-right: 37px;
+    
+
+}
+
+
+.name {
+    font-family: 'Aladin', cursive;
+    font-size: 64px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    color: #3F3838;    
+}
+
+.inlink {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    color: #3F3838; 
+}
+
+.myintro {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #3F3838;
+    margin-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-right: 197px;
+}
+
+.resume-subhead h2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+
+.resume-groups {
+    margin-right: 10px;
+    padding-top: 42px;
+    margin-left: 10px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+
+}
+
+.group1, .group2, .group3 {
+    width: 90%;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+
+.groups-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.groups-lists {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+hr {
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
