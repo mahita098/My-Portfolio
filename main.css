@@ -101,6 +101,7 @@ ul li {
 
 .hero-content {
     display: flex;
+    flex-direction: row;
     
 }
 
@@ -207,22 +208,22 @@ ul li {
 /* @media only screen and (min-width: 750px){
     
 
-    .wrapper {
-        margin: 0 18em;
+    .hero-content {
+        
         
     }
 
-}
+} */
 
-@media only screen and (max-width: 750px){
-    .wrapper {
-        margin: 0 5em;
+@media only screen and (max-width: 768px){
+    .hero-content {
+        flex-direction: column;
                 
     }
 
    
 
-} */
+}
 
 
 

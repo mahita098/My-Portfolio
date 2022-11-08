@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #EDEAEA;
+    color: #3F3838;
     
+}
+
+body {
+    padding-bottom: 50px;
 }
 
 .container {
@@ -127,30 +132,75 @@ ul li {
 .groups-lists {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 
 hr {
     margin-left: 16px;
+    
+}
+
+.education, .achievement {
+    padding-top: 40px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+
 }
 
 
+.education_lists, .achievements_lists {
+    display: flex;
+    flex-direction: row;
+    line-height: 38px;
+}
 
 
+.year {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 45px;
+}
+
+.education_desc, .achievement_desc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.education_desc_inst, .achievement_desc_inst {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.work {
+    margin-left: 10px;
+    padding-top: 40px;
+}
 
 
+.workgroup {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    padding-bottom: 20px;
 
+}
 
+.workplace {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 25%;
+}
 
+.workdescription {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+    width: 30%;
 
-
-
-
-
-
-
-
+}
 
 
 
