@@ -81,7 +81,7 @@ a:link {
 
 .myintro {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 23px;
     color: #3F3838;
     margin-left: 10px;
     padding-top: 50px;
@@ -165,12 +165,12 @@ hr {
 
 .education_desc, .achievement_desc {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .education_desc_inst, .achievement_desc_inst {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -190,31 +190,46 @@ hr {
 
 .workplace {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     width: 25%;
 }
 
 .workdescription {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     
     width: 30%;
 
 }
 
+.view {
+    padding: 8px;
+    color: rgb(18, 100, 121);
+    font-size: 15px;
+}
+
+
+.projects {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(106, 148, 148);
+}
+
+
+.sociallogo svg {
+    float: right;
+    padding: 0 4px;
+    
+
+}
 
 
 
+.sociallogo svg path {
+    color: red;
+    
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
