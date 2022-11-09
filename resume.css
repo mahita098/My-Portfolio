@@ -31,7 +31,7 @@ body {
 }
 
 .navigation:before {
-    background-color: #3F3838; ;
+    background-color: #afa4a4; 
     content: "";
     display: block;
     height: 2px;
@@ -72,7 +72,7 @@ a:link {
 
 .inlink {
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 100;
     margin-left: 10px;
     padding-bottom: 20px;
@@ -138,6 +138,8 @@ ul li {
 
 hr {
     margin-left: 16px;
+    border: 1px solid #afa4a4;
+
     
 }
 
@@ -210,9 +212,10 @@ hr {
 
 
 .projects {
+    margin-left: 10px;
     width: 100%;
-    padding: 10px;
-    background-color: rgb(106, 148, 148);
+    padding:50px 0;
+    
 }
 
 
@@ -224,12 +227,6 @@ hr {
 }
 
 
-
-.sociallogo svg path {
-    color: red;
-    
-
-}
 
 
 
