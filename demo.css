@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url("Images/background.jpg");
+}
+
+
+header {
+    /* background: rgb(174, 174, 236); */
+    
+}
+
+.container {
+    min-width: 1000px;
+    margin: auto 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: palegoldenrod; */
+}
+
+.logo {
+    padding-left: 50px;
+    font-size: 55px;
+    font-family: 'Aladin', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li{
+   /* background-color: palevioletred; */
+   list-style: none;
+   padding: 40px 60px;
+   font-size: 28px;
+   font-family: 'Aladin', cursive;
+}
+
+/* .menu li a:hover{
+    font-size: 30px;
+ } */
+
+.menu li a {
+   text-decoration: none;
+   color: rgb(46, 42, 42);
+
+}
+
+.box-wrapper {
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    height: 700px;
+    gap: 10px;
+    padding-top: 20px;
+    /* background-color: paleturquoise; */
+}
+
+.box {
+    /* background-color:gray; */
+}
+
+.box-right {
+    padding: 40px 40px 40px 80px;
+}
+
+.box-right h1 {
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    margin-top: 30px;
+    color: rgb(46, 42, 42);
+}
+
+.box-right p{
+    font-size: 25px;
+    margin-top: 60px;
+    font-family: 'Aladin', cursive;
+    line-height: 30px;
+    color: rgb(46, 42, 42);
+
+}
+
+button {
+    padding: 20px 40px;
+    /* background-color: red; */
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: 'Aladin', cursive;
+    color: rgb(46, 42, 42);
+    box-shadow: 5px -5px 16px rgb(102, 91, 91);
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+button:hover {
+    color: rgb(53, 58, 58);
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.buttonbox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.imgbox {
+    /* background-color: whitesmoke; */
+    box-shadow: 10px 10px 16px rgb(133, 125, 125);
+    width: 55%;
+    height: 65%;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 80px;
+    left: 56px;
+
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.myimg {
+    position: relative;
+    right: 90px;
+    top: 10px;
+
+}
+
+
+.sociallogo {
+    
+    display: flex;
+    gap: 2em;
+    padding:3em 2em 2em 2em;
+    padding-left: 110px;
+    margin-top: 80px;
+      
+}
+
+.svgbox {
+    padding-right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
