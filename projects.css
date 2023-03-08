@@ -76,16 +76,19 @@ nav {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
     padding: 20px;
     
 }
 
-.box a {
-    display: flex;
-    justify-content: center;
+.links a {
+    padding: 25px 15px 15px 15px ;
     list-style: none;
     text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
 }
 
 img {
@@ -93,6 +96,7 @@ img {
     width: auto;
     height: 175px;
     border-radius: 10px;
+    box-shadow: 4px 4px 15px rgb(95, 69, 69);
     
 }
 
@@ -103,3 +107,40 @@ img {
     justify-content: center;
 }
 
+
+
+.github {
+    border: 2px solid transparent;
+    box-shadow: 4px 4px 15px rgb(95, 69, 69);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.github:hover {
+    
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+}
+
+.page {
+    border: 2px solid transparent;
+    box-shadow: 4px 4px 15px rgb(95, 69, 69);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.page:hover {
+    
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px
+
+}
