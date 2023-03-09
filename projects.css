@@ -164,9 +164,14 @@ img {
     box-shadow: 4px 4px 15px rgb(95, 69, 69);
     font-size: 16px;
     font-weight: bold;
+    line-height: 25px;
 }
 
-
+.boxdescription {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
 
