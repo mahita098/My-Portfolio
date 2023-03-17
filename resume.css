@@ -231,7 +231,8 @@ hr {
 .projects {
     margin-left: 10px;
     width: 100%;
-    padding:50px 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 35px;
@@ -254,18 +255,24 @@ hr {
     
 }
 
+
+
 .projectlink {
+    margin-left: 10px;
     border: 1px solid rgb(94, 167, 185);
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 10px;
     
     
 }
 
 .projectlink a:hover{
     color: black;
+    transition: 0.5s;
     
 }
+
 
 
 
