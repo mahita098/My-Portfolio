@@ -75,7 +75,7 @@ nav {
 
 .box-wrapper {
     display: grid;
-    grid-template-columns: 1.3fr 2fr;
+    grid-template-columns: 1.6fr 2fr;
     
     gap: 10px;
     padding-top: 20px;
@@ -143,8 +143,8 @@ button:hover {
 .imgbox {
     /* background-color: whitesmoke; */
     box-shadow: 10px 10px 16px rgb(133, 125, 125);
-    width: 55%;
-    height: 44%;
+    max-width: 55%;
+    max-height: 65%;
     border-bottom-left-radius: 200px;
     border-bottom-right-radius: 200px;
     z-index: 1;
@@ -164,8 +164,10 @@ button:hover {
 
 .myimg {
     position: relative;
-    right: 127px;
-    bottom: 120px;
+    right: 75px;
+    bottom: 50px;
+    height: 619px;
+    width: 460px;
     
 
 }
