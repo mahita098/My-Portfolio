@@ -260,7 +260,7 @@ button:hover {
     }
 
     .buttonbox {
-        margin: auto;
+        display: none;
     }
 
 
