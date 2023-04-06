@@ -9,6 +9,6 @@ Portfolio live ✨ : https://mahita-ramgolam.netlify.app/index.html <p>
 - HTML
 - CSS
   
-## TO NOTE
+## To note
   
 Not yet responsive
