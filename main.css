@@ -194,14 +194,12 @@ button:hover {
 }
 
 @media (max-width: 680px) {
-.container {
-    margin:auto;
-}
 
-    .logo {
+
+    /* .logo {
         
         margin: auto;
-    }
+    } */
 
     .menu {
         
