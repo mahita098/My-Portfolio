@@ -196,10 +196,11 @@ button:hover {
 @media (max-width: 680px) {
 
 
-    /* .logo {
+    .logo {
         
-        margin: auto;
-    } */
+        margin: auto 10%;
+        
+    }
 
     .menu {
         
