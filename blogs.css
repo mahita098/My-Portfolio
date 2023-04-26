@@ -5,14 +5,13 @@
 
 }
 
+
 body {
     
-    background-color: #FAACA8;
-background-image: linear-gradient(19deg, #d6a9a6 0%, #eee9e9 101%);
-
-    
+    background-color: #bd9795;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 header {
     /* background: rgb(174, 174, 236); */
