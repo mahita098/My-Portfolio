@@ -22,7 +22,7 @@ body {
 
 nav {
     display: flex;
-    gap: 17%;
+    gap: 10%;
     /* justify-content: space-between; */
     
     
@@ -65,3 +65,88 @@ nav {
     color: rgb(46, 42, 42);
 
 }
+
+
+.grid-wrapper {
+    margin: 5% 15%;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)) ;
+}
+
+
+.grid-wrapper a {
+    text-decoration: none;
+    color: #312b2b;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+
+}
+
+.event-boxes{
+    background-color: #af7a78;
+    border: 2px solid #af7a78;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:0.5em 0.5em 0.5em -0.4em #4d4141;
+
+}
+
+.event-boxes:hover {
+    box-shadow:0 0.5em 0.5em -0.4em #1f1818;
+
+}
+
+.text-box {
+    display: flex;
+    flex-direction: row;
+    padding:10px 5px;
+    justify-content: space-between;
+    
+}
+
+.text-box p {
+    font-size: larger;
+}
+
+.text-box a {
+    color: rgb(17, 41, 63);
+}
+
+.text-box a:hover {
+    color: #e3e6e9;
+    font-weight: bold;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
