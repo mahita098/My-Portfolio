@@ -11,4 +11,4 @@ Portfolio live ✨ : https://mahita-ramgolam.netlify.app/index.html <p>
   
 ## To note
   
-Not yet responsive
+Not yet fully responsive
